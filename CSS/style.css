@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.contenido-P{
+	font-family:'Lora', serif;
+	color: #333;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+h1{
+	font-family: 'Ultra', serif;
+	color: #333;
+	font-size: 45px;
+	text-shadow: 1px 1px 2px #333;
+	padding-bottom: 20px;
+}
+
+
+.dr-pc-img{
+	width: 400px;
+	float: right
+}
+
+@media display and (min-width: 650px){
+	.dr-pc-img{
+		width: 100%;
+	}
+}
